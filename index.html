@@ -7,7 +7,7 @@
 <meta name="description" content="Guilhem Gandriaut, prestataire cuisine, salle et débrouille pour entreprises de catering. Lyon, Sud Ardèche et toute la France.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --paper:#FBF3E3;
@@ -617,6 +617,14 @@
     font-size:1.5rem;
     margin:0;
   }
+  .gm-title-handwritten{
+    font-family:'Caveat', cursive;
+    font-weight:700;
+    font-size:2.6rem;
+    transform:rotate(-4deg);
+    color:var(--tomato);
+    margin:0 0 4px;
+  }
   .gm-overlay p{margin:0; max-width:280px; font-size:0.85rem; opacity:0.85;}
   .gm-btn{
     font-family:'Space Mono', monospace;
@@ -640,7 +648,6 @@
   <div class="nav-inner">
     <div class="brandmark">Le G <span>-</span> Presta</div>
     <nav class="links">
-      <a href="#services">Services</a>
       <a href="#clients">Clients</a>
       <a href="#galerie">Galerie</a>
       <a href="#apropos">À propos</a>
@@ -655,7 +662,7 @@
     <div class="hero-eyebrow tag">Cuisine · Régie</div>
     <h1>Le G <span class="dash">-</span> Presta</h1>
     <p class="lede">
-      Cuisine végétale, gourmande, écologique, décoloniale, marxiste et antifaschiste. <br>Basé à Lyon, disponible dans le monde entier
+      Cuisine végétale, gourmande, écologique, décoloniale, marxiste et antifaschiste. <br>Basé en Ardèche, présent à Lyon, disponible dans le monde entier
     </p>
     <div class="cta-row">
       <a class="btn btn-primary" href="tel:+33699474458">📞 06 99 47 44 58</a>
@@ -665,44 +672,11 @@
   </div>
 </section>
 
-<section id="services">
+<section id="statut">
   <div class="wrap">
-    <div class="section-head">
-      <span class="tag">Ce que je sais faire</span>
-      <h2>-</h2>
-    </div>
-    <div class="menu" style="position:relative;">
-      <div class="note">
-        <div class="icon cuisine">🔪</div>
-        <h3>Cuisine</h3>
-        <p style="font-size:0.95rem; margin:0;">Commis ou cuisinier selon les besoins du service.</p>
-        <ul>
-          <li>Mise en place</li>
-          <li>Production</li>
-          <li>Dressage, envoi en salle ou n'importe où</li>
-        </ul>
-      </div>
-      <div class="note">
-        <div class="icon salle">🍽️</div>
-        <h3>Salle</h3>
-        <p style="font-size:0.95rem; margin:0;">Montage, service, démontage — du premier camion au dernier carton.</p>
-        <ul>
-          <li>Montage de salle &amp; buffets</li>
-          <li>Service en salle</li>
-          <li>Démontage et rangement (les Z-up n'ont plus aucun secret pour moi)</li>
-        </ul>
-      </div>
-      <div class="note">
-        <div class="icon bricole">🛠️</div>
-        <h3>Régie</h3>
-        <p style="font-size:0.95rem; margin:0;"></p>
-        <ul>
-          <li>Permis A et B, je conduis vite et bien tout ce qui se conduit, de la moto au 30m3</li>
-          <li>Autonomie, créativité</li>
-          <li>Toujours calme et de bonne humeur</li>
-        </ul>
-      </div>
-    </div>
+    <p style="font-family:'Space Mono', monospace; font-weight:700; font-size:1.05rem; display:inline-block; border:1.5px solid var(--ink); border-radius:8px; padding:10px 16px; background:var(--mustard); margin:0;">
+      Auto-entrepreneur, sur facture
+    </p>
   </div>
 </section>
 
@@ -710,7 +684,6 @@
   <div class="wrap">
     <div class="section-head">
       <span class="tag">Ils me recommandent</span>
-      <h2>Ils m'ont fait confiance</h2>
     </div>
 
     <!--
@@ -759,9 +732,9 @@
                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
           <div class="carousel-placeholder" style="display:none;">
             <span class="emoji">📷</span>
-            Remplacez images/galerie/photo-1.jpg
+            
           </div>
-          <div class="carousel-caption">Montage buffet</div>
+          <div class="carousel-caption"></div>
         </div>
 
         <div class="carousel-slide">
@@ -769,9 +742,9 @@
                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
           <div class="carousel-placeholder" style="display:none;">
             <span class="emoji">📷</span>
-            Remplacez images/galerie/photo-2.jpg
+            
           </div>
-          <div class="carousel-caption">En cuisine</div>
+          <div class="carousel-caption"></div>
         </div>
 
         <div class="carousel-slide">
@@ -779,9 +752,9 @@
                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
           <div class="carousel-placeholder" style="display:none;">
             <span class="emoji">📷</span>
-            Remplacez images/galerie/photo-3.jpg
+            
           </div>
-          <div class="carousel-caption">Sur un tournage</div>
+          <div class="carousel-caption"></div>
         </div>
 
         <div class="carousel-slide">
@@ -789,9 +762,9 @@
                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
           <div class="carousel-placeholder" style="display:none;">
             <span class="emoji">📷</span>
-            Remplacez images/galerie/photo-4.jpg
+            
           </div>
-          <div class="carousel-caption">Service en salle</div>
+          <div class="carousel-caption"></div>
         </div>
 
       </div>
@@ -813,26 +786,22 @@
     <div class="about-grid">
       <div>
         <p>
-          Diplômé en agronomie, j'ai commencé par une petite carrière de 2-3 ans dans la bière
-          (assistant qualité chez Meteor en Alsace et responsable de production dans une brasserie artisanale dans la Drôme).
-          J'ai aussi beaucoup voyagé et fait pleins de petits jobs super sympa (épicier bio à mi-temps, chauffeur-livreur pour les cantines scolaires de la ville de Caluire, contrôleur chez les agriculteurs
-          pour les aides de la Politique Agricole Commune (PAC) européenne, conseiller agricole
-          pour les pommes et les poires...). <br>Très gourmet, je débute une plongée passionnante dans le monde de la cuisine professionnelle et du cinéma.
-        </p>
-        <p>
-          Auto-entrepreneur, sur facture.
+          Agronome de formation, passé par la bière et pas mal de petits jobs,
+          je me lance à fond dans la cuisine professionnelle et le cinéma. Gourmand, créatif.
         </p>
         <div class="pill-list">
           <span class="pill">Créatif</span>
-          <span class="pill">Fiable</span>
           <span class="pill">Autonome</span>
           <span class="pill">Gourmand</span>
+          <span class="pill">Curieux</span>
+          <span class="pill">Passionné</span>
+          <span class="pill">Engagé</span>
         </div>
       </div>
       <div class="values-box">
         <h3>Convictions</h3>
         <p>
-          Écologie, anticapitaliste, décoloniale, antifasciste... J'aimerais bien créer un mouvement Marxiste de cuisiniers gourmands un jour.
+          Écologie, anticapitaliste, décoloniale, antifasciste... Une de mes utopies serait de créer un mouvement Marxiste de cuisiniers gourmands un jour.
         </p>
       </div>
     </div>
@@ -884,7 +853,7 @@
       <div class="gm-flash-overlay" id="gmFlashOverlay"></div>
 
       <div class="gm-overlay" id="gmStartScreen">
-        <h2>Sauve le buffet !</h2>
+        <h2 class="gm-title-handwritten">Sauve le buffet !</h2>
         <p>Glisse ton doigt pour déplacer la marmite. Attrape les bons ingrédients,
         évite les mouches et les cailloux — un seul faux pas te coûte une vie.</p>
         <button class="gm-btn" id="gmStartBtn">Commencer</button>
@@ -1369,3 +1338,4 @@
 
 </body>
 </html>
+
